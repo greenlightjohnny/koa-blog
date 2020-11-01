@@ -4,12 +4,23 @@
   "description": "Koa",
   "main": "server.js",
   "scripts": {
+    "dev": "nodemon start server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@koa/router": "^9.4.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "koa": "^2.13.0"
+    "koa": "^2.13.0",
+    "koa-router": "^9.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.3.1",
+    "mongoose": "^5.10.11",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
