@@ -1,0 +1,23 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2vw;
+}
+
+.endm {
+  width: 100%;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.endm p {
+  padding-top: 2rem;
+}

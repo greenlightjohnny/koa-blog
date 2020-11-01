@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    {% include './includes/header.njs' %}
   </head>
   <body>
-    welcome to my world, {{name}}
+    <div class="main">welcome to my world, {{name}}</div>
+
+    <footer class="endm">{% include './includes/footer.njs' %}</footer>
   </body>
 </html>
